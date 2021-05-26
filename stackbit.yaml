@@ -285,10 +285,10 @@ models:
     exclude: posts/**
     fields:
       - type: string
-        name: title
-        label: Title
+        name: anothertitle
+        label: anothertitle
         description: The title of the page
-        required: true
+        required: false
       - type: string
         name: title
         label: Title
