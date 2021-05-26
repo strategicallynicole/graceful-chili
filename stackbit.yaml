@@ -234,6 +234,11 @@ models:
     hideContent: true
     fields:
       - type: string
+        name: anothertitle
+        label: anothertitle
+        description: The title of the page
+        required: false
+      - type: string
         name: title
         label: Title
         description: The title of the page.
