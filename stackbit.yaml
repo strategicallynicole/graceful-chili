@@ -291,6 +291,11 @@ models:
         description: The title of the page
         required: true
       - type: string
+        name: title2
+        label: Title2
+        description: The title of the page
+        required: true
+      - type: string
         name: subtitle
         label: Subtitle
         description: The text shown just below the page title.
