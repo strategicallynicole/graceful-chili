@@ -274,12 +274,6 @@ models:
         name: title
         label: Title
         description: The title of the page.
-      - type: string
-        name: title2
-        label: Title2
-        description: The title of the page
-        required: false
-        required: true
       - type: model
         name: seo
         models:
