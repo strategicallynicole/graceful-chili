@@ -55,4 +55,5 @@ seo:
       value: images/4.jpg
       relativeUrl: true
 template: advanced
+anothertitle: We Need To Talk.
 ---
