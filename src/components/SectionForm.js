@@ -12,6 +12,9 @@ export default class SectionForm extends React.Component {
               {_.get(section, 'title', null) && (
               <h2 className="block-title underline inner-sm">{_.get(section, 'title', null)}</h2>
               )}
+               {_.get(section, 'anothertitle', null) && (
+              <h2 className="block-title underline inner-sm">{_.get(section, 'title', null)}</h2>
+              )}
               <div className="block-content inner-sm">
                 {_.get(section, 'content', null) && (
                 markdownify(_.get(section, 'content', null))
