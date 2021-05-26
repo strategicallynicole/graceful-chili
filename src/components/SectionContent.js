@@ -12,6 +12,9 @@ export default class SectionContent extends React.Component {
               {_.get(section, 'title', null) && (
               <h2 className="block-title underline inner-sm">{_.get(section, 'title', null)}</h2>
               )}
+               {_.get(section, 'title2', null) && (
+              <h2 className="block-title underline inner-sm">{_.get(section, 'title2', null)}</h2>
+              )}
               {_.get(section, 'image', null) && (
               <div className="block-image">
                 <img src={withPrefix(_.get(section, 'image', null))} alt={_.get(section, 'image_alt', null)} />
