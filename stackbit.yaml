@@ -238,11 +238,6 @@ models:
         label: Title
         description: The title of the page.
         required: true
-      - type: string
-        name: title2
-        label: Title2
-        description: The title of the page
-        required: false
       - type: boolean
         name: hide_title
         label: Hide page title
