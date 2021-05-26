@@ -294,7 +294,7 @@ models:
         name: title2
         label: Title2
         description: The title of the page
-        required: true
+        required: false
       - type: string
         name: subtitle
         label: Subtitle
