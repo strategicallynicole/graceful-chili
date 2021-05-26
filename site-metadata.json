@@ -4,7 +4,6 @@
     "header": {
         "title": "Stackbit Fresh",
         "tagline": "Header Tagline",
-        "profile_img": "images/majestic-sunflower.svg",
         "profile_img_alt": "Author avatar",
         "background": "dark",
         "has_nav": true,
