@@ -21,7 +21,7 @@ export default class Advanced extends React.Component {
               {(!_.get(this.props, 'pageContext.frontmatter.hide_title', null)) && (
               <header className="post-header inner-sm">
                 <h1 className="post-title underline">{_.get(this.props, 'pageContext.frontmatter.title', null)}</h1>
-                <h1 className="post-title underline">{_.get(this.props, 'pageContext.frontmatter.title', null)}</h1>
+                <h1 className="post-title underline">{_.get(this.props, 'pageContext.frontmatter.anothertitle', null)}</h1>
 
               </header>
               )}
