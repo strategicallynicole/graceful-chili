@@ -12,7 +12,7 @@ export default class Header extends React.Component {
                 <div className="site-header-inside">
                   <div className="site-branding">
                     {_.get(this.props, 'pageContext.site.siteMetadata.header.profile_img', null) && (
-                    <p className="profile">
+                    <p className="">
                       <Link to={withPrefix('/')}><img src={withPrefix(_.get(this.props, 'pageContext.site.siteMetadata.header.profile_img', null))}
                           className="avatar" alt={_.get(this.props, 'pageContext.site.siteMetadata.header.profile_img_alt', null)} /></Link>
                     </p>
