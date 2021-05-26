@@ -23,6 +23,8 @@ export default class Post extends React.Component {
               <article className="post post-full">
                 <header className="post-header inner-sm">
                   <h1 className="post-title underline">{_.get(this.props, 'pageContext.frontmatter.title', null)}</h1>
+                  <h2 className="post-title underline">{_.get(this.props, 'pageContext.frontmatter.title', null)}</h1>
+
                   {_.get(this.props, 'pageContext.frontmatter.subtitle', null) && (
                   <div className="post-subtitle">
                     {htmlToReact(_.get(this.props, 'pageContext.frontmatter.subtitle', null))}
